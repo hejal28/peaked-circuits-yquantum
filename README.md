@@ -61,11 +61,11 @@ Built in 24 hours, so there's clear room to strengthen it:
 
 - The notebooks repeat setup code; the shared simulation logic would be 
   better factored into a single module imported by each.
-- MPS bond dimension was chosen by hand per circuit — an adaptive scheme 
+- MPS bond dimension was chosen by hand per circuit, an adaptive scheme 
   that raises it until the peak stabilizes would be more robust.
 
 ## Context
 
 Built at the YQuantum × BlueQubit hackathon, Yale University, Spring 2026, 
-as a 3-person team — pair-programmed throughout. 
+as a 3-person team, we worked together on separate problems throughout. 
 Tools: Python, Qiskit, Qiskit Aer, NumPy.
