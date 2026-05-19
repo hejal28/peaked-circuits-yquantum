@@ -21,11 +21,11 @@ qubit range, beyond classical brute-force limits.
 
 We scaled our simulation strategy with the size of the circuit:
 
-- **Small circuits** — direct statevector simulation, used as a baseline 
+- **Small circuits**: direct statevector simulation, used as a baseline 
   and for verifying correctness.
-- **Larger circuits (40–60 qubits)** — Matrix Product State (MPS) 
+- **Larger circuits (40–60 qubits)**: Matrix Product State (MPS) 
   approximation, which represents the quantum state in a compressed form 
   that stays tractable when entanglement is bounded.
-- **Circuit optimization** — Qiskit transpilation and gate-cancellation 
+- **Circuit optimization**: Qiskit transpilation and gate-cancellation 
   to reduce circuit depth before simulation, lowering the computational 
   cost of each run.
